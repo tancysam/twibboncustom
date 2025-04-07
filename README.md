@@ -20,7 +20,7 @@ This application allows users to create personalized twibbons for various events
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/irfan-za/bikin-twibbon.git](https://github.com/tancysam/twibboncustom.git)
+   git clone https://github.com/tancysam/twibboncustom.git
    ```
 2. Navigate into the project directory:
    ```bash
