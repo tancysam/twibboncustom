@@ -66,8 +66,7 @@ export default function Form({ searchParams }: Readonly<Props>) {
             htmlFor="zoom"
             className="text-lg font-semibold text-slate-600"
           >
-            Zoom {(Math.round((scale + Number.EPSILON) * 100) / 100).toString()}
-            x
+            Zoom {(Math.round((scale + Number.EPSILON) * 100) / 100).toString()}x
           </label>
           <div className="flex items-center gap-3">
             <Button
@@ -138,6 +137,21 @@ export default function Form({ searchParams }: Readonly<Props>) {
         >
           <FaDownload /> Download
         </Button>
+      </div>
+      {/* Instructions Section */}
+      <div className="text-center mt-6 text-gray-700">
+        <h1 className="text-xl font-bold">
+          Welcome to the AI 20th Anniversary Profile Picture Frame Generator!
+        </h1>
+        <p className="mt-2">
+          Follow the steps below to customize your profile picture:
+        </p>
+        <ol className="list-decimal list-inside mt-2">
+          <li>Upload your image.</li>
+          <li>Adjust your image. (Use 2 fingers to move the image)</li>
+          <li>Download your new profile picture!</li>
+        </ol>
+        <p className="mt-2">Remember to look in your Downloads folder to find it. No images or data is saved on this site.</p>
       </div>
     </div>
   );
