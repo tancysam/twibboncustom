@@ -23,17 +23,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="instructions">
-          <h1>Welcome to the AI20 Profile Picture Frame Generator!</h1>
-          <p>
-            Follow the steps below to customize your profile picture:
-          </p>
-          <ol>
-            <li>Upload your image.</li>
-            <li>Adjust your image. (Use 2 fingers to move the image)</li>
-            <li>Download your customized profile picture with the AI20 Frame.</li>
-          </ol>
-        </div>
         {children}
         <Analytics />
       </body>
