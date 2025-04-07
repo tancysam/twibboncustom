@@ -118,18 +118,18 @@ export default function Form({ searchParams }: Readonly<Props>) {
             htmlFor="foto"
             className="flex items-center gap-2 truncate max-w-[18rem] md:max-w-sm py-1 px-4 lg:py-2 rounded-full border-0 lg:text-lg text-md font-semibold bg-red-100 text-red-700 h-10 hover:bg-red-300 cursor-pointer duration-100"
           >
-            <FaFileImage /> {fileName ?? "Pilih Foto"}
+            <FaFileImage /> {fileName ?? "Upload Photo"}
           </label>
         </div>
         <Button
           onClick={() => {
-            if (!fileName) return alert("Silahkan pilih foto terlebih dahulu!");
+            if (!fileName) return alert("Please select a photo first!");
             const data = canvasHook.toDataUrl();
 
             if (data) {
               downloadURI(
                 data,
-                `Twibbon ${searchParams?.title ?? "Hut RI-79"}.jpg`
+                `AI Anniv ${searchParams?.title ?? "Profile Picture with Frame"}.jpg`
               );
             }
           }}
