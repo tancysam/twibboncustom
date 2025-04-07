@@ -129,7 +129,7 @@ export default function Form({ searchParams }: Readonly<Props>) {
             if (data) {
               downloadURI(
                 data,
-                `AI Anniv ${searchParams?.title ?? "Profile Picture with Frame"}.jpg`
+                `AI Anniversary ${searchParams?.title ?? "Profile Frame"}.jpg`
               );
             }
           }}
