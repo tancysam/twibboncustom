@@ -1,8 +1,6 @@
-# [bikin-twibbon](https://bikin-twibbon.vercel.app)
+# [Twibbon Frame]
 
 Create and customize your own twibbons effortlessly with our user-friendly web application.
-
-[![Twibbon HUT RI Generator](./public/thumbnail.png)](https://bikin-twibbon.vercel.app)
 
 ## How it Works
 
@@ -22,11 +20,11 @@ This application allows users to create personalized twibbons for various events
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/irfan-za/bikin-twibbon.git
+   git clone [https://github.com/irfan-za/bikin-twibbon.git](https://github.com/tancysam/twibboncustom.git)
    ```
 2. Navigate into the project directory:
    ```bash
-   cd bikin-twibbon
+   cd twibboncustom
    ```
 3. Install the dependencies:
    ```bash
@@ -43,4 +41,4 @@ This application allows users to create personalized twibbons for various events
 
 ### Attribution
 
-This project is based on work from [here](https://github.com/mokletdev/moklet-twibbon) by [mokletdev].
+This project is based on work from [moklet-twibbon](https://github.com/mokletdev/moklet-twibbon) by mokletdev and [bikin-wibbon](https://github.com/irfan-za/bikin-twibbon) by irfan-za.
